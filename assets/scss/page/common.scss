@@ -27,8 +27,10 @@ body {
   .scrollbar {
     display:block !important;
     background-color:red !important;
+    z-index:2;
   }
-  .scrollbar .handle {
+  .scrollbar .mousearea {
     background-color:green !important;
+    z-index:3;
   }
 }
