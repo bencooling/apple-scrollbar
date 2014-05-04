@@ -15,7 +15,11 @@ body {
   background-color: $grey-light;
 }
 
+.frame {
+  text-align:center; // ie8
+}
 .content {
+  text-align:left; // ie8
   background-color: $lightblue;
   padding:20px;
   width:680px;
