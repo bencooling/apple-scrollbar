@@ -1,52 +1,5 @@
 /*
 |--------------------------------------------------------------------------
-| Sly
-|--------------------------------------------------------------------------
-|
-| Full page scroll
-|
-*/
-
-body, html { height: 100%; background: #e8e8e8; }
-
-/* Frame */
-.frame { margin: 0 22px 0 0; height: 100%; }
-
-/* Scrollbar */
-.scrollbar {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 12px;
-  padding:0px 2px;
-  transition: all 100ms linear; 
-  display:none;
-}
-.scrollbar .handle {
-  cursor: pointer;
-  background-color: rgba($black, 0.6);
-  border-radius: 10px;
-}
-.scrollbar .handle .mousearea {
-  position: absolute;
-  top: 0;
-  left: -10px;
-  width: 22px;
-  height: 100%;
-}
-.scrollbar.mouseenter {
-  background-color: rgba(245, 245, 245, 0.8);
-  border-left: 1px solid rgba(180, 180, 180, 0.5);
-  width: 17px;
-}
-.scrollbar.mouseenter,
-.scrollbar.moving {
-  display:block;
-}
-
-/*
-|--------------------------------------------------------------------------
 | Grid
 |--------------------------------------------------------------------------
 |

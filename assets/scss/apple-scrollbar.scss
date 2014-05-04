@@ -20,7 +20,7 @@ body, html { height: 100%; background: #e8e8e8; }
   top: 0px;
   right: 0px;
   bottom: 0px;
-  width: 12px;
+  width: 7px;
   padding:0px 2px;
   transition: all 100ms linear; 
   display:none;
@@ -40,7 +40,7 @@ body, html { height: 100%; background: #e8e8e8; }
 .scrollbar.mouseenter {
   background-color: rgba(245, 245, 245, 0.8);
   border-left: 1px solid rgba(180, 180, 180, 0.5);
-  width: 17px;
+  width: 11px;
 }
 .scrollbar.mouseenter,
 .scrollbar.moving {
