@@ -1,0 +1,45 @@
+/*
+|--------------------------------------------------------------------------
+| Dependencies
+|--------------------------------------------------------------------------
+|
+| Use thoughtbots awesome SASS based libraries: Normalize, Bourbon, Neat, Bitters
+|
+*/
+@import "vendor/normalize-scss/_normalize";
+@import "vendor/bourbon/dist/_bourbon";
+@import "vendor/neat/app/assets/stylesheets/_neat";
+@import "vendor/bitters/app/assets/stylesheets/_bitters";
+
+/*
+|--------------------------------------------------------------------------
+| Variables
+|--------------------------------------------------------------------------
+|
+| Global variables for all modules
+|
+*/
+// variables
+$max-width: em(1080);
+
+// media
+$iPad-landscape: new-breakpoint(max-width 1024px); // iPad landscape
+$iPad-portrait: new-breakpoint(max-width 768px); // iPad portrait
+$iPhone-landscape: new-breakpoint(max-width 480px); // iPhone landscape
+$iPhone-portrait: new-breakpoint(max-width 320px); // iPhone portrait
+
+// colors
+$light-grey: #ededed;
+$dark-grey: #333333;
+
+/*
+|--------------------------------------------------------------------------
+| Include modules
+|--------------------------------------------------------------------------
+|
+| Common: Grid, Sly based style rules 
+|
+*/
+@import "scss/library";
+@import "scss/apple-scrollbar";
+@import "scss/page/common";

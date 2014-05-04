@@ -1,0 +1,88 @@
+/*
+|--------------------------------------------------------------------------
+| Functions
+|--------------------------------------------------------------------------
+*/
+@function rem($pxval, $base:16) {
+  @return ($pxval / $base) * 1rem;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Mixins
+|--------------------------------------------------------------------------
+*/
+// #selector { @include rgba-background-fallback(#333, 0.5); }
+@mixin rgba-background-fallback($color, $opacity: 1.0) {
+  background-color: $color; /* The Fallback */
+  background-color: rgba($color, $opacity);
+}
+@mixin rgba-color-fallback($color, $opacity: 1.0) {
+  color: $color; /* The Fallback */
+  color: rgba($color, $opacity);
+}
+
+@mixin rem-font-size($pxval, $base:16) {
+  font-size: $pxval * 1px;
+  font-size: rem($pxval, $base);
+}
+
+// http://css-tricks.com/do-we-need-box-shadow-prefixes/#li-comment-232977
+@mixin prefix-this($name, $argument) {
+  #{$name}: $argument;
+  -webkit-#{$name}: $argument;
+  -moz-#{$name}: $argument;
+  -ms-#{$name}: $argument;
+  -o-#{$name}: $argument;
+}
+
+// Taken from Compass framework
+// Usage: http://compass-style.org/reference/compass/layout/sticky_footer/
+@mixin sticky-footer($footer-height, $root-selector: unquote("#root"), $root-footer-selector: unquote("#root_footer"), $footer-selector: unquote("#footer")) {
+  html, body {
+    height: 100%; }
+  #{$root-selector} {
+    clear: both;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -$footer-height;
+    #{$root-footer-selector} {
+      height: $footer-height; } }
+  #{$footer-selector} {
+    clear: both;
+    position: relative;
+    height: $footer-height; } }
+
+  @mixin svg-background-image($path: unquote($path)) {
+    background-image: url($path + '.png');
+    background-image: url($path + '.svg'), none; 
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+/*
+|--------------------------------------------------------------------------
+| Variables
+|--------------------------------------------------------------------------
+*/
+$max-width: em(1080);
+
+// media
+$less-desktop: new-breakpoint(max-width 1120px); // > 1080 desktop
+$iPad-landscape: new-breakpoint(max-width 1024px); // iPad landscape
+$iPad-portrait: new-breakpoint(max-width 768px); // iPad portrait
+$iPhone-landscape: new-breakpoint(max-width 480px); // iPhone landscape
+$iPhone-portrait: new-breakpoint(max-width 320px); // iPhone portrait
+
+// colors
+$white: #ffffff;
+$black: #000000;
+$green:#00aaae;
+$red:#AE0034;
+$facebook:#627AAD;
+$twitter:#0092CB;
+
+$helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;

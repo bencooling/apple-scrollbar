@@ -1,0 +1,25 @@
+{
+  "name":  "skeleton-static",
+  "author": "Ben Cooling",
+  "private": true,
+  "dependencies": {
+    "animate-css": "daneden/animate.css",
+    "normalize-scss": "latest",
+    "bourbon": "latest",
+    "neat": "latest",
+    "bitters": "thoughtbot/bitters",
+    "requirejs": "latest",
+    "jquery": "latest",
+    "mustache": "janl/mustache.js",
+    "modernizr": "Modernizr/Modernizr",
+    "jquery-easing": "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js",
+    "jquery-visible": "teamdf/jquery-visible",
+    "jquery-hoverIntent": "briancherne/jquery-hoverIntent",
+    "jquery-flexibleArea":"flaviusmatis/flexibleArea.js",
+    "jquery-knob": "aterrien/jQuery-Knob",
+    "blueimp-file-upload": "latest",
+    "pickadate": "latest",
+    "bec": "bencooling/Bec-Modules",
+    "sly": "latest"
+  }
+}

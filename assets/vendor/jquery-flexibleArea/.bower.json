@@ -1,0 +1,13 @@
+{
+  "name": "jquery-flexibleArea",
+  "homepage": "https://github.com/flaviusmatis/flexibleArea.js",
+  "_release": "8ce7d53369",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8ce7d53369bbd1ae854c3ff29db5219354c167f4"
+  },
+  "_source": "git://github.com/flaviusmatis/flexibleArea.js.git",
+  "_target": "*",
+  "_originalSource": "flaviusmatis/flexibleArea.js"
+}
