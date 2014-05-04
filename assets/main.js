@@ -32,6 +32,7 @@ require.config({
     ,'jquery.picker.date'      : '../vendor/pickadate/lib/picker.date'
     ,'sly'                     : '../vendor/sly/dist/sly'
     ,'easing'                  : '../vendor/jquery-easing/index'
+    ,'pie'                     : '../vendor/bower-pie/build/PIE_uncompressed'
   },
   shim: {
      'jquery' : { exports: 'jQuery' }

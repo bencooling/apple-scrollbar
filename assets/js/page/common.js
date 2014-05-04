@@ -9,8 +9,15 @@
 | Licensed under the MIT License
 |
 */
-define(function(){
+define(['jquery'], function($){
 
   console.log('hello there :-) how do you like your apple style scrollbars?');
+
+  // $(function() {
+  //   if (window.PIE)
+  //     PIE.attach($('.ie .scrollbar .handle')[0]);
+  // });
+
+
 
 });

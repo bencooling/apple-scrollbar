@@ -25,20 +25,3 @@ body {
 .frame {
   overflow:hidden;
 }
-
-
-.lt-ie9 {
-  .content { width:100%; } 
-  .scrollbar {
-    // display:block !important;
-    // background-color:red !important;
-    z-index:2;
-  }
-  .scrollbar.mouseenter {
-    background-color: #ccc;
-  }
-  .scrollbar .mousearea {
-    // background-color:green !important;
-    z-index:3;
-  }
-}

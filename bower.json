@@ -20,6 +20,7 @@
     "blueimp-file-upload": "latest",
     "pickadate": "latest",
     "bec": "bencooling/Bec-Modules",
-    "sly": "latest"
+    "sly": "latest",
+    "bower-pie": "latest"
   }
 }

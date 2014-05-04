@@ -1,0 +1,23 @@
+{
+  "name": "bower-pie",
+  "version": "1.0.0",
+  "ignore": [
+    "build.xml",
+    "demos",
+    "documentation",
+    "site",
+    "sources",
+    "tests",
+    "tools"
+  ],
+  "homepage": "https://github.com/lukebussey/PIE",
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "d463e6b603394da91f1cbb6d670678920b95510c"
+  },
+  "_source": "git://github.com/lukebussey/PIE.git",
+  "_target": "*",
+  "_originalSource": "bower-pie"
+}
