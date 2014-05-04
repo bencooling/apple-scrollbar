@@ -21,3 +21,13 @@ body {
   width:680px;
   margin:0 auto;
 }
+
+.lte9 {
+  .content { width:100%; } 
+  .scrollbar {
+    display:block !important;
+  }
+  .scrollbar .handle {
+    background-color:green !important;
+  }
+}
