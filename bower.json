@@ -9,7 +9,7 @@
     "neat": "latest",
     "bitters": "thoughtbot/bitters",
     "requirejs": "latest",
-    "jquery": "latest",
+    "jquery": "jquery#1",
     "mustache": "janl/mustache.js",
     "modernizr": "Modernizr/Modernizr",
     "jquery-easing": "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js",
