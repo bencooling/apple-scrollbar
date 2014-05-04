@@ -54,37 +54,17 @@ body, html { height: 100%; background: #e8e8e8; }
 |
 */
 
+$grey-light: #eee;
 $lightblue: #d5eefb;
 $blue: #aadbf5;
 
 body {
-  background-color: $twitter;
+  background-color: $grey-light;
 }
 
-.grid {
-
-  text-align:center;
-  font-size:1em;
-  line-height: 2em;
-
-  .container {
-    padding:8px;
-    @include outer-container;
-    background-color: $lightblue;
-    margin-bottom:2em;
-    &:after { clear:both }
-    code { display:block; }
-    div {
-      background-color: $blue;
-      margin-bottom:2em;
-    }
-    div:last-child {
-      margin-right:0px;
-    }
-  }
-
-  .alpha, .beta {
-    @include span-columns(6);
-  }
-
+.content {
+  background-color: $lightblue;
+  padding:20px;
+  width:680px;
+  margin:0 auto;
 }
