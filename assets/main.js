@@ -18,7 +18,7 @@
 |
 */
 require.config({
-    baseUrl: '/assets/js',
+    baseUrl: './assets/js',
     paths: {
      'main'                    : '../main'
     ,'jquery'                  : '../vendor/jquery/dist/jquery'
